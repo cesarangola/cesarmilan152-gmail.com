@@ -69,7 +69,7 @@ const ChangeEmailForm = props => {
           color: "#c2c2c2",
           onPress: () => sethidePassword(!password)
         }}
-        errorMessage={error.password}
+        // errorMessage={error.password}
       />
       <Button
         title="Cambiar Email"
